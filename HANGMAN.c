@@ -5,7 +5,7 @@ int main() {
     char letter,c;
     int used[26]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
     int wrong=0,n=0,guessed=0;
-    printf("HANGMAN!!!")
+    printf("HANGMAN!!!");
     while (wrong<6 && guessed<5) {
         printf("Word: ");
         n=0;
